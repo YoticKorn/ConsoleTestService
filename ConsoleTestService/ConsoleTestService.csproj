@@ -2,5 +2,12 @@
 	<PropertyGroup>
 		<TargetFrameworks>net8.0-windows;net472</TargetFrameworks>
 		<Platforms>x64</Platforms>
+		<OutputType>Exe</OutputType>
 	</PropertyGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\..\Korn.Pipes\Korn.Pipes\Korn.Pipes.csproj" />
+	  <ProjectReference Include="..\..\Korn.Service.Client\Korn.Service.Client\Korn.Service.Client.csproj" />
+	  <ProjectReference Include="..\..\Korn.Service.Server\Korn.Service.Server\Korn.Service.Server.csproj" />
+	  <ProjectReference Include="..\..\Korn.Service.Shared\Korn.Service.Shared\Korn.Service.Shared.csproj" />
+	</ItemGroup>
 </Project>
